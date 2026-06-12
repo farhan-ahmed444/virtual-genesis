@@ -147,7 +147,7 @@ export function HeroSection() {
             <div className="floating-card absolute bottom-[15%] right-[40%] w-48 h-60 rounded-2xl overflow-hidden shadow-2xl shadow-[#5bd37c]/10 -rotate-8">
               <div className="w-full h-full bg-cover bg-center" style={{ backgroundImage: 'url(/public/image1-1024x723?w=600)' }} />
             </div>
-
+ 
             {/* Glass badge */}
             <div className="floating-card absolute top-[45%] -right-[5%] glass rounded-xl px-4 py-3 shadow-xl">
               <p className="text-sm font-semibold">New Collection</p>
