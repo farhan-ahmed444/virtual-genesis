@@ -139,13 +139,13 @@ export function HeroSection() {
               <div className="w-full h-full bg-cover bg-center" style={{ backgroundImage: 'url(https://bravo.yourwebsitedemos.com/web/Virtual-Genesis-v3/wp-content/uploads/2026/05/Outlook-bum35e3b.png?w=600)' }} />
             </div>
             <div className="floating-card absolute top-[20%] right-[35%] w-56 h-72 rounded-2xl overflow-hidden shadow-2xl shadow-[#5bd37c]/10 -rotate-3">
-              <div className="w-full h-full bg-cover bg-center" style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=600)' }} />
+              <div className="w-full h-full bg-cover bg-center" style={{ backgroundImage: 'url(https://bravo.yourwebsitedemos.com/web/Virtual-Genesis-v3/wp-content/uploads/2026/05/Outlook-bum35e3b.png?w=600)' }} />
             </div>
             <div className="floating-card absolute bottom-[10%] right-[5%] w-52 h-64 rounded-2xl overflow-hidden shadow-2xl shadow-[#f8c602]/10 rotate-12">
-              <div className="w-full h-full bg-cover bg-center" style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1515405295579-ba7b454bb62b?w=600)' }} />
+              <div className="w-full h-full bg-cover bg-center" style={{ backgroundImage: 'url(https://bravo.yourwebsitedemos.com/web/Virtual-Genesis-v3/wp-content/uploads/2026/05/Outlook-bum35e3b.png?w=600)' }} />
             </div>
             <div className="floating-card absolute bottom-[15%] right-[40%] w-48 h-60 rounded-2xl overflow-hidden shadow-2xl shadow-[#5bd37c]/10 -rotate-8">
-              <div className="w-full h-full bg-cover bg-center" style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1588850561407-ed78c282e89b?w=600)' }} />
+              <div className="w-full h-full bg-cover bg-center" style={{ backgroundImage: 'url(https://bravo.yourwebsitedemos.com/web/Virtual-Genesis-v3/wp-content/uploads/2026/05/Outlook-bum35e3b.png?w=600)' }} />
             </div>
 
             {/* Glass badge */}
