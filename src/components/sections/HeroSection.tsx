@@ -136,7 +136,7 @@ export function HeroSection() {
           {/* Right: Floating Cards */}
           <div ref={cardsRef} className="relative hidden lg:block h-[70vh]">
             <div className="floating-card absolute top-[5%] right-[10%] w-64 h-80 rounded-2xl overflow-hidden shadow-2xl shadow-[#5bd37c]/10 rotate-6">
-              <div className="w-full h-full bg-cover bg-center" style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600)' }} />
+              <div className="w-full h-full bg-cover bg-center" style={{ backgroundImage: 'url(https://bravo.yourwebsitedemos.com/web/Virtual-Genesis-v3/wp-content/uploads/2026/05/Outlook-bum35e3b.png?w=600)' }} />
             </div>
             <div className="floating-card absolute top-[20%] right-[35%] w-56 h-72 rounded-2xl overflow-hidden shadow-2xl shadow-[#5bd37c]/10 -rotate-3">
               <div className="w-full h-full bg-cover bg-center" style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=600)' }} />
