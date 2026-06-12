@@ -55,7 +55,7 @@ export function Header() {
             href="/"
             className="text-2xl font-heading font-semibold tracking-tight"
           >
-            VIRTUAL<span className="text-[#2DBEFF]">.</span>GENESIS
+            VIRTUAL<span className="text-[#5bd37c]">.</span>GENESIS
           </Link>
 
           {/* Center: Desktop Nav */}
@@ -81,31 +81,31 @@ export function Header() {
           <div className="flex items-center gap-4">
             <button
               onClick={openSearch}
-              className="p-2 hover:text-[#2DBEFF] transition-colors"
+              className="p-2 hover:text-[#5bd37c] transition-colors"
               aria-label="Search"
             >
               <Search size={20} />
             </button>
             <Link
               href="/wishlist"
-              className="hidden sm:flex p-2 hover:text-[#2DBEFF] transition-colors relative"
+              className="hidden sm:flex p-2 hover:text-[#5bd37c] transition-colors relative"
               aria-label="Wishlist"
             >
               <Heart size={20} />
               {wishlistCount > 0 && (
-                <span className="absolute -top-1 -right-1 w-4 h-4 bg-[#2DBEFF] text-white text-[10px] font-bold rounded-full flex items-center justify-center">
+                <span className="absolute -top-1 -right-1 w-4 h-4 bg-[#5bd37c] text-white text-[10px] font-bold rounded-full flex items-center justify-center">
                   {wishlistCount}
                 </span>
               )}
             </Link>
             <button
               onClick={toggleCart}
-              className="p-2 hover:text-[#2DBEFF] transition-colors relative"
+              className="p-2 hover:text-[#5bd37c] transition-colors relative"
               aria-label="Cart"
             >
               <ShoppingBag size={20} />
               {cartItemCount > 0 && (
-                <span className="absolute -top-1 -right-1 w-4 h-4 bg-[#2DBEFF] text-white text-[10px] font-bold rounded-full flex items-center justify-center">
+                <span className="absolute -top-1 -right-1 w-4 h-4 bg-[#5bd37c] text-white text-[10px] font-bold rounded-full flex items-center justify-center">
                   {cartItemCount}
                 </span>
               )}
@@ -134,7 +134,7 @@ export function Header() {
                       <li key={item}>
                         <Link
                           href={`/shop?category=${item.toLowerCase().replace(/\s+/g, '-')}`}
-                          className="text-sm hover:text-[#2DBEFF] transition-colors"
+                          className="text-sm hover:text-[#5bd37c] transition-colors"
                         >
                           {item}
                         </Link>
@@ -146,10 +146,10 @@ export function Header() {
               <div className="col-span-1 bg-gradient-soft rounded-2xl p-6 flex flex-col justify-center">
                 <p className="text-sm font-semibold mb-1">New Drop</p>
                 <p className="text-2xl font-heading font-bold">Genesis</p>
-                <p className="text-2xl font-heading font-bold text-[#2DBEFF]">Collection</p>
+                <p className="text-2xl font-heading font-bold text-[#5bd37c]">Collection</p>
                 <Link
                   href="/collections/genesis"
-                  className="mt-4 text-sm font-medium text-[#2DBEFF] hover:underline"
+                  className="mt-4 text-sm font-medium text-[#5bd37c] hover:underline"
                 >
                   Shop Now →
                 </Link>
@@ -170,7 +170,7 @@ export function Header() {
                   key={link.label}
                   href={link.href}
                   onClick={toggleMenu}
-                  className="text-2xl font-heading font-semibold hover:text-[#2DBEFF] transition-colors"
+                  className="text-2xl font-heading font-semibold hover:text-[#5bd37c] transition-colors"
                 >
                   {link.label}
                 </Link>
@@ -179,28 +179,28 @@ export function Header() {
               <Link
                 href="/wishlist"
                 onClick={toggleMenu}
-                className="text-lg font-medium hover:text-[#2DBEFF] transition-colors flex items-center gap-3"
+                className="text-lg font-medium hover:text-[#5bd37c] transition-colors flex items-center gap-3"
               >
                 <Heart size={20} /> Wishlist
               </Link>
               <Link
                 href="/about"
                 onClick={toggleMenu}
-                className="text-lg font-medium hover:text-[#2DBEFF] transition-colors"
+                className="text-lg font-medium hover:text-[#5bd37c] transition-colors"
               >
                 About
               </Link>
               <Link
                 href="/contact"
                 onClick={toggleMenu}
-                className="text-lg font-medium hover:text-[#2DBEFF] transition-colors"
+                className="text-lg font-medium hover:text-[#5bd37c] transition-colors"
               >
                 Contact
               </Link>
               <Link
                 href="/faq"
                 onClick={toggleMenu}
-                className="text-lg font-medium hover:text-[#2DBEFF] transition-colors"
+                className="text-lg font-medium hover:text-[#5bd37c] transition-colors"
               >
                 FAQ
               </Link>

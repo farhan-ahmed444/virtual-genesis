@@ -1,13 +1,10 @@
-@import url('https://api.fontshare.com/v2/css?f[]=clash-display@200,300,400,500,600,700&f[]=general-sans@200,300,400,500,600,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
-
 @import "tailwindcss";
 
 @theme inline {
-  --color-primary: #2DBEFF;
-  --color-primary-dark: #1a8fd4;
-  --color-secondary: #EAF8FF;
-  --color-accent: #FFD54A;
+  --color-primary: #5bd37c;
+  --color-primary-dark: #3da85c;
+  --color-secondary: #0fa8ed;
+  --color-accent: #f8c602;
   --color-background: #FFFFFF;
   --color-neutral: #F5F7FA;
   --color-foreground: #0A0A0A;
@@ -16,9 +13,9 @@
   --color-glass: rgba(255, 255, 255, 0.15);
   --color-glass-dark: rgba(0, 0, 0, 0.05);
 
-  --font-heading: 'Clash Display', 'General Sans', sans-serif;
-  --font-body: 'Inter', sans-serif;
-  --font-sans: 'Inter', sans-serif;
+  --font-heading: "Clash Display", "General Sans", sans-serif;
+  --font-body: var(--font-inter);
+  --font-sans: var(--font-inter);
 
   --animate-fade-up: fade-up 0.6s ease-out forwards;
   --animate-scale-in: scale-in 0.5s ease-out forwards;
@@ -48,8 +45,8 @@
 }
 
 @keyframes glow {
-  from { box-shadow: 0 0 20px rgba(45, 190, 255, 0.1); }
-  to { box-shadow: 0 0 40px rgba(45, 190, 255, 0.3); }
+  from { box-shadow: 0 0 20px rgba(91, 211, 124, 0.1); }
+  to { box-shadow: 0 0 40px rgba(91, 211, 124, 0.3); }
 }
 
 html {
@@ -64,7 +61,7 @@ body {
 }
 
 ::selection {
-  background: #2DBEFF;
+  background: #5bd37c;
   color: white;
 }
 
@@ -81,26 +78,26 @@ body {
 }
 
 .gradient-primary {
-  background: linear-gradient(135deg, #2DBEFF 0%, #1a8fd4 50%, #EAF8FF 100%);
+  background: linear-gradient(135deg, #5bd37c 0%, #3da85c 50%, #0fa8ed 100%);
 }
 
 .gradient-soft {
-  background: linear-gradient(135deg, #EAF8FF 0%, #FFFFFF 50%, #F5F7FA 100%);
+  background: linear-gradient(135deg, #0fa8ed 0%, #FFFFFF 50%, #F5F7FA 100%);
 }
 
 .gradient-accent {
-  background: linear-gradient(135deg, #FFD54A 0%, #FFC107 50%, #FFB300 100%);
+  background: linear-gradient(135deg, #f8c602 0%, #e6b402 50%, #d4a200 100%);
 }
 
 .gradient-mesh {
   background:
-    radial-gradient(ellipse at 20% 50%, rgba(45, 190, 255, 0.08) 0%, transparent 50%),
-    radial-gradient(ellipse at 80% 20%, rgba(255, 213, 74, 0.06) 0%, transparent 50%),
-    radial-gradient(ellipse at 50% 80%, rgba(234, 248, 255, 0.4) 0%, transparent 50%);
+    radial-gradient(ellipse at 20% 50%, rgba(91, 211, 124, 0.08) 0%, transparent 50%),
+    radial-gradient(ellipse at 80% 20%, rgba(248, 198, 2, 0.06) 0%, transparent 50%),
+    radial-gradient(ellipse at 50% 80%, rgba(15, 168, 237, 0.4) 0%, transparent 50%);
 }
 
 .text-gradient {
-  background: linear-gradient(135deg, #2DBEFF 0%, #1a8fd4 100%);
+  background: linear-gradient(135deg, #5bd37c 0%, #3da85c 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;

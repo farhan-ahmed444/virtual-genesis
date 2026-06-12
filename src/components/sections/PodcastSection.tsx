@@ -14,12 +14,12 @@ export function PodcastSection() {
       <div className="max-w-7xl mx-auto px-6">
         <AnimatedSection className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12">
           <div>
-            <p className="text-sm font-semibold text-[#2DBEFF] uppercase tracking-widest mb-2">Podcast</p>
+            <p className="text-sm font-semibold text-[#5bd37c] uppercase tracking-widest mb-2">Podcast</p>
             <h2 className="text-4xl md:text-5xl font-heading font-bold">Listen & Learn</h2>
           </div>
           <Link
             href="/podcast"
-            className="text-sm font-medium text-muted hover:text-[#2DBEFF] transition-colors flex items-center gap-1 group"
+            className="text-sm font-medium text-muted hover:text-[#5bd37c] transition-colors flex items-center gap-1 group"
           >
             All Episodes <ArrowRight size={14} className="group-hover:translate-x-1 transition-transform" />
           </Link>
@@ -30,7 +30,7 @@ export function PodcastSection() {
           <div className="relative bg-foreground text-white rounded-3xl overflow-hidden mb-10">
             <div className="grid md:grid-cols-2">
               <div className="p-8 md:p-12 flex flex-col justify-center">
-                <div className="flex items-center gap-2 text-[#2DBEFF] text-xs font-semibold uppercase tracking-widest mb-4">
+                <div className="flex items-center gap-2 text-[#5bd37c] text-xs font-semibold uppercase tracking-widest mb-4">
                   <Headphones size={14} />
                   <span>Featured Episode</span>
                 </div>
@@ -38,7 +38,7 @@ export function PodcastSection() {
                 <h3 className="text-2xl md:text-3xl font-heading font-bold mb-3">{featured.title}</h3>
                 <p className="text-white/60 text-sm leading-relaxed mb-6">{featured.description}</p>
                 <div className="flex items-center gap-6">
-                  <button className="flex items-center gap-3 bg-[#2DBEFF] text-white px-6 py-3 rounded-full font-medium hover:bg-[#1a8fd4] transition-colors group">
+                  <button className="flex items-center gap-3 bg-[#5bd37c] text-white px-6 py-3 rounded-full font-medium hover:bg-[#3da85c] transition-colors group">
                     <Play size={18} className="fill-white group-hover:scale-110 transition-transform" />
                     Play Episode
                   </button>
@@ -74,7 +74,7 @@ export function PodcastSection() {
                 </div>
                 <div className="p-5">
                   <p className="text-xs text-muted mb-1">Episode {ep.episodeNumber} · {ep.duration}</p>
-                  <h4 className="font-semibold text-sm mb-1 group-hover:text-[#2DBEFF] transition-colors">{ep.title}</h4>
+                  <h4 className="font-semibold text-sm mb-1 group-hover:text-[#5bd37c] transition-colors">{ep.title}</h4>
                   <p className="text-xs text-muted line-clamp-2">{ep.description}</p>
                 </div>
               </div>

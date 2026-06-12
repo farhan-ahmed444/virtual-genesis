@@ -19,7 +19,7 @@ export function FeaturedProducts() {
         {/* Header */}
         <AnimatedSection className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12">
           <div>
-            <p className="text-sm font-semibold text-[#2DBEFF] uppercase tracking-widest mb-2">Products</p>
+            <p className="text-sm font-semibold text-[#5bd37c] uppercase tracking-widest mb-2">Products</p>
             <h2 className="text-4xl md:text-5xl font-heading font-bold">Featured Collection</h2>
           </div>
           <Button variant="ghost" size="sm" className="group">

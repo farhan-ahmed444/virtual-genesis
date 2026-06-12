@@ -8,7 +8,7 @@ export function NewsletterSection() {
   return (
     <section className="relative py-32 md:py-40 overflow-hidden">
       <div className="absolute inset-0 gradient-primary opacity-90" />
-      <div className="absolute inset-0 bg-gradient-to-br from-[#2DBEFF]/40 via-transparent to-[#FFD54A]/20" />
+      <div className="absolute inset-0 bg-gradient-to-br from-[#5bd37c]/40 via-transparent to-[#f8c602]/20" />
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute -top-1/2 -left-1/2 w-full h-full bg-white/10 rounded-full blur-3xl" />
         <div className="absolute -bottom-1/2 -right-1/2 w-full h-full bg-white/5 rounded-full blur-3xl" />

@@ -48,19 +48,19 @@ export function ProductQuickView() {
 
         {/* Content */}
         <div className="p-8 flex flex-col">
-          <button onClick={closeQuickView} className="self-end p-2 hover:text-[#2DBEFF] transition-colors">
+          <button onClick={closeQuickView} className="self-end p-2 hover:text-[#5bd37c] transition-colors">
             <X size={20} />
           </button>
 
           <div className="flex-1">
             <div className="flex items-center gap-2 mb-2">
-              {product.isNew && <span className="text-xs font-semibold text-[#2DBEFF] uppercase tracking-widest">New</span>}
+              {product.isNew && <span className="text-xs font-semibold text-[#5bd37c] uppercase tracking-widest">New</span>}
               {product.isBestSeller && <span className="text-xs font-semibold text-accent uppercase tracking-widest">Best Seller</span>}
             </div>
             <h2 className="text-2xl font-heading font-bold">{product.name}</h2>
             <div className="flex items-center gap-2 mt-2">
               <div className="flex items-center gap-1">
-                <Star size={14} className="fill-[#FFD54A] text-[#FFD54A]" />
+                <Star size={14} className="fill-[#f8c602] text-[#f8c602]" />
                 <span className="text-sm font-medium">{product.rating}</span>
               </div>
               <span className="text-sm text-muted">({product.reviewCount} reviews)</span>
@@ -76,7 +76,7 @@ export function ProductQuickView() {
                 <h4 className="text-xs font-semibold text-muted uppercase tracking-widest mb-2">Colors</h4>
                 <div className="flex gap-2">
                   {product.colors.map((c) => (
-                    <span key={c.hex} className="w-8 h-8 rounded-full border-2 border-border hover:border-[#2DBEFF] cursor-pointer transition-colors" style={{ backgroundColor: c.hex }} />
+                    <span key={c.hex} className="w-8 h-8 rounded-full border-2 border-border hover:border-[#5bd37c] cursor-pointer transition-colors" style={{ backgroundColor: c.hex }} />
                   ))}
                 </div>
               </div>

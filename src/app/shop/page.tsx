@@ -23,13 +23,13 @@ export default function ShopPage() {
         <div className="absolute inset-0 gradient-mesh" />
         <div className="relative z-10 max-w-7xl mx-auto px-6 w-full">
           <AnimatedSection>
-            <p className="text-sm font-semibold text-[#2DBEFF] uppercase tracking-widest mb-2">Shop</p>
+            <p className="text-sm font-semibold text-[#5bd37c] uppercase tracking-widest mb-2">Shop</p>
           </AnimatedSection>
           <h1 className="text-6xl md:text-8xl font-heading font-bold leading-none mb-6">
             <SplitText as="span" className="block">
               THE
             </SplitText>
-            <SplitText as="span" className="block text-[#2DBEFF]" delay={0.3}>
+            <SplitText as="span" className="block text-[#5bd37c]" delay={0.3}>
               COLLECTION
             </SplitText>
           </h1>
@@ -57,12 +57,12 @@ export default function ShopPage() {
             <div className="flex items-center gap-3">
               <div className="relative">
                 <Search size={16} className="absolute left-3 top-1/2 -translate-y-1/2 text-muted" />
-                <input type="text" placeholder="Search..." className="pl-9 pr-4 h-10 rounded-full bg-neutral text-sm outline-none focus:ring-1 focus:ring-[#2DBEFF] w-40" />
+                <input type="text" placeholder="Search..." className="pl-9 pr-4 h-10 rounded-full bg-neutral text-sm outline-none focus:ring-1 focus:ring-[#5bd37c] w-40" />
               </div>
               <select
                 value={activeSort}
                 onChange={(e) => setActiveSort(e.target.value)}
-                className="h-10 px-4 rounded-full bg-neutral text-sm outline-none focus:ring-1 focus:ring-[#2DBEFF]"
+                className="h-10 px-4 rounded-full bg-neutral text-sm outline-none focus:ring-1 focus:ring-[#5bd37c]"
               >
                 {sorts.map((s) => (
                   <option key={s} value={s}>{s}</option>

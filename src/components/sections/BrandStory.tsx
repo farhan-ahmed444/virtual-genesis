@@ -18,13 +18,13 @@ export function BrandStory() {
 
       <div className="relative z-10 max-w-7xl mx-auto px-6 text-center">
         <AnimatedSection>
-          <p className="text-sm font-semibold text-[#2DBEFF] uppercase tracking-widest mb-4">
+          <p className="text-sm font-semibold text-[#5bd37c] uppercase tracking-widest mb-4">
             Our Story
           </p>
           <h2 className="text-5xl md:text-7xl lg:text-8xl font-heading font-bold text-white leading-none mb-8">
             Faith Meets
             <br />
-            <span className="text-[#2DBEFF]">Modern Life</span>
+            <span className="text-[#5bd37c]">Modern Life</span>
           </h2>
           <p className="text-lg text-white/70 max-w-xl mx-auto mb-10 leading-relaxed">
             We believe your faith shouldn&apos;t live in a separate world. It should be woven into everything you wear, create, and pursue.

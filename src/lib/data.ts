@@ -17,7 +17,7 @@ export const products: Product[] = [
     colors: [
       { name: 'White', hex: '#FFFFFF' },
       { name: 'Black', hex: '#000000' },
-      { name: 'Sky Blue', hex: '#2DBEFF' },
+      { name: 'Sky Blue', hex: '#5bd37c' },
     ],
     sizes: ['XS', 'S', 'M', 'L', 'XL', 'XXL'],
     rating: 4.8,

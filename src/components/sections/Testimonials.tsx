@@ -35,7 +35,7 @@ export function Testimonials() {
     <section ref={sectionRef} className="py-24 md:py-32 overflow-hidden">
       <div className="max-w-7xl mx-auto px-6 mb-12">
         <AnimatedSection>
-          <p className="text-sm font-semibold text-[#2DBEFF] uppercase tracking-widest mb-2">Testimonials</p>
+          <p className="text-sm font-semibold text-[#5bd37c] uppercase tracking-widest mb-2">Testimonials</p>
           <h2 className="text-4xl md:text-5xl font-heading font-bold">What People Say</h2>
         </AnimatedSection>
       </div>
@@ -48,7 +48,7 @@ export function Testimonials() {
           >
             <div className="flex items-center gap-1 mb-3">
               {Array.from({ length: t.rating }).map((_, j) => (
-                <Star key={j} size={14} className="fill-[#FFD54A] text-[#FFD54A]" />
+                <Star key={j} size={14} className="fill-[#f8c602] text-[#f8c602]" />
               ))}
             </div>
             <p className="text-sm text-muted leading-relaxed mb-4">&ldquo;{t.content}&rdquo;</p>

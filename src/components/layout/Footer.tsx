@@ -41,7 +41,7 @@ export function Footer() {
           {/* Brand */}
           <div className="col-span-2">
             <Link href="/" className="text-2xl font-heading font-semibold tracking-tight">
-              VIRTUAL<span className="text-[#2DBEFF]">.</span>GENESIS
+              VIRTUAL<span className="text-[#5bd37c]">.</span>GENESIS
             </Link>
             <p className="mt-4 text-white/60 text-sm max-w-xs leading-relaxed">
               Faith-inspired apparel, artwork, and resources designed to inspire your journey.
@@ -51,7 +51,7 @@ export function Footer() {
                 <Link
                   key={i}
                   href="#"
-                  className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-[#2DBEFF] transition-colors"
+                  className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-[#5bd37c] transition-colors"
                 >
                   <Icon size={16} />
                 </Link>

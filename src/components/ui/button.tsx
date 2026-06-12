@@ -4,15 +4,15 @@ import { cn } from '@/lib/utils'
 
 const variants = {
   primary:
-    'bg-[#2DBEFF] text-white hover:bg-[#1a8fd4] shadow-lg shadow-[#2DBEFF]/20 hover:shadow-[#2DBEFF]/30',
+    'bg-[#5bd37c] text-white hover:bg-[#3da85c] shadow-lg shadow-[#5bd37c]/20 hover:shadow-[#5bd37c]/30',
   secondary:
-    'bg-white text-foreground border border-border hover:border-[#2DBEFF] hover:text-[#2DBEFF]',
+    'bg-white text-foreground border border-border hover:border-[#5bd37c] hover:text-[#5bd37c]',
   outline:
     'bg-transparent text-foreground border-2 border-foreground hover:bg-foreground hover:text-white',
   ghost: 'bg-transparent text-foreground hover:bg-neutral',
   accent:
-    'bg-gradient-accent text-foreground font-semibold hover:opacity-90 shadow-lg shadow-[#FFD54A]/20',
-  link: 'bg-transparent text-[#2DBEFF] underline-offset-4 hover:underline p-0',
+    'bg-gradient-accent text-foreground font-semibold hover:opacity-90 shadow-lg shadow-[#f8c602]/20',
+  link: 'bg-transparent text-[#5bd37c] underline-offset-4 hover:underline p-0',
 }
 
 const sizes = {
@@ -37,7 +37,7 @@ const Button = forwardRef<HTMLButtonElement, ButtonProps>(
         disabled={disabled || loading}
         className={cn(
           'relative inline-flex items-center justify-center gap-2 rounded-full font-medium transition-all duration-300 cursor-pointer',
-          'focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#2DBEFF] focus-visible:ring-offset-2',
+          'focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#5bd37c] focus-visible:ring-offset-2',
           'disabled:opacity-50 disabled:pointer-events-none',
           variants[variant],
           sizes[size],

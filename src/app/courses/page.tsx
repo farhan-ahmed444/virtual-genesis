@@ -15,13 +15,13 @@ export default function CoursesPage() {
         <div className="absolute inset-0 gradient-mesh" />
         <div className="relative z-10 max-w-7xl mx-auto px-6 w-full">
           <AnimatedSection>
-            <p className="text-sm font-semibold text-[#2DBEFF] uppercase tracking-widest mb-2">Courses</p>
+            <p className="text-sm font-semibold text-[#5bd37c] uppercase tracking-widest mb-2">Courses</p>
           </AnimatedSection>
           <h1 className="text-6xl md:text-8xl font-heading font-bold leading-none mb-6">
             <SplitText as="span" className="block">
               DEEP
             </SplitText>
-            <SplitText as="span" className="block text-[#2DBEFF]" delay={0.3}>
+            <SplitText as="span" className="block text-[#5bd37c]" delay={0.3}>
               LEARNING
             </SplitText>
           </h1>
@@ -45,7 +45,7 @@ export default function CoursesPage() {
                     </div>
                   </div>
                   <div className="p-6">
-                    <h3 className="text-xl font-heading font-bold mb-2 group-hover:text-[#2DBEFF] transition-colors">{program.title}</h3>
+                    <h3 className="text-xl font-heading font-bold mb-2 group-hover:text-[#5bd37c] transition-colors">{program.title}</h3>
                     <p className="text-muted text-sm mb-4">{program.description}</p>
                     <div className="flex items-center gap-4 text-sm text-muted mb-4">
                       {program.sessions && <span className="flex items-center gap-1"><Sparkles size={14} />{program.sessions} lessons</span>}

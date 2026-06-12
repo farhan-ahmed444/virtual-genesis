@@ -11,13 +11,13 @@ export default function PodcastPage() {
         <div className="absolute inset-0 gradient-mesh" />
         <div className="relative z-10 max-w-7xl mx-auto px-6 w-full">
           <AnimatedSection>
-            <p className="text-sm font-semibold text-[#2DBEFF] uppercase tracking-widest mb-2">Podcast</p>
+            <p className="text-sm font-semibold text-[#5bd37c] uppercase tracking-widest mb-2">Podcast</p>
           </AnimatedSection>
           <h1 className="text-6xl md:text-8xl font-heading font-bold leading-none mb-6">
             <SplitText as="span" className="block">
               LISTEN
             </SplitText>
-            <SplitText as="span" className="block text-[#2DBEFF]" delay={0.3}>
+            <SplitText as="span" className="block text-[#5bd37c]" delay={0.3}>
               & LEARN
             </SplitText>
           </h1>
@@ -32,7 +32,7 @@ export default function PodcastPage() {
           <AnimatedSection stagger={0.1}>
             <div className="space-y-4">
               {podcastEpisodes.map((ep) => (
-                <div key={ep.id} className="group flex items-center gap-6 p-5 rounded-2xl bg-neutral hover:bg-[#2DBEFF]/5 transition-colors cursor-pointer">
+                <div key={ep.id} className="group flex items-center gap-6 p-5 rounded-2xl bg-neutral hover:bg-[#5bd37c]/5 transition-colors cursor-pointer">
                   <div className="relative w-20 h-20 rounded-xl overflow-hidden flex-shrink-0">
                     <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: `url(${ep.image})` }} />
                     <div className="absolute inset-0 bg-black/0 group-hover:bg-black/30 transition-colors flex items-center justify-center">
@@ -51,10 +51,10 @@ export default function PodcastPage() {
                       <span>·</span>
                       <span>{ep.date}</span>
                     </div>
-                    <h3 className="font-semibold group-hover:text-[#2DBEFF] transition-colors">{ep.title}</h3>
+                    <h3 className="font-semibold group-hover:text-[#5bd37c] transition-colors">{ep.title}</h3>
                     <p className="text-sm text-muted line-clamp-1">{ep.description}</p>
                   </div>
-                  <Play size={20} className="text-muted group-hover:text-[#2DBEFF] transition-colors flex-shrink-0" />
+                  <Play size={20} className="text-muted group-hover:text-[#5bd37c] transition-colors flex-shrink-0" />
                 </div>
               ))}
             </div>

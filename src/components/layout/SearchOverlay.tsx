@@ -40,7 +40,7 @@ export function SearchOverlay() {
     >
       <button
         onClick={closeSearch}
-        className="absolute top-8 right-8 p-3 hover:text-[#2DBEFF] transition-colors"
+        className="absolute top-8 right-8 p-3 hover:text-[#5bd37c] transition-colors"
       >
         <X size={28} />
       </button>
@@ -54,7 +54,7 @@ export function SearchOverlay() {
             value={query}
             onChange={(e) => setQuery(e.target.value)}
             placeholder="Search products, collections, articles..."
-            className="w-full h-16 pl-14 pr-6 text-2xl font-heading bg-transparent border-b-2 border-border focus:border-[#2DBEFF] outline-none transition-colors"
+            className="w-full h-16 pl-14 pr-6 text-2xl font-heading bg-transparent border-b-2 border-border focus:border-[#5bd37c] outline-none transition-colors"
           />
         </div>
 
@@ -77,7 +77,7 @@ export function SearchOverlay() {
                     />
                   </div>
                   <div>
-                    <p className="font-medium group-hover:text-[#2DBEFF] transition-colors">{product.name}</p>
+                    <p className="font-medium group-hover:text-[#5bd37c] transition-colors">{product.name}</p>
                     <p className="text-sm text-muted">${product.price}</p>
                   </div>
                 </Link>

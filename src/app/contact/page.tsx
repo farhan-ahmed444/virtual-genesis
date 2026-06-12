@@ -30,13 +30,13 @@ export default function ContactPage() {
         <div className="relative z-10 max-w-7xl mx-auto px-6 w-full">
           <div className="max-w-3xl">
             <AnimatedSection>
-              <p className="text-sm font-semibold text-[#2DBEFF] uppercase tracking-widest mb-4">Contact</p>
+              <p className="text-sm font-semibold text-[#5bd37c] uppercase tracking-widest mb-4">Contact</p>
             </AnimatedSection>
             <h1 className="text-6xl md:text-8xl font-heading font-bold leading-none mb-6">
               <SplitText as="span" className="block">
                 GET IN
               </SplitText>
-              <SplitText as="span" className="block text-[#2DBEFF]" delay={0.3}>
+              <SplitText as="span" className="block text-[#5bd37c]" delay={0.3}>
                 TOUCH
               </SplitText>
             </h1>
@@ -65,7 +65,7 @@ export default function ContactPage() {
                         required
                         value={formData.name}
                         onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                        className="w-full h-12 px-4 rounded-xl border border-border bg-neutral/50 focus:border-[#2DBEFF] focus:ring-1 focus:ring-[#2DBEFF] outline-none transition-colors"
+                        className="w-full h-12 px-4 rounded-xl border border-border bg-neutral/50 focus:border-[#5bd37c] focus:ring-1 focus:ring-[#5bd37c] outline-none transition-colors"
                         placeholder="Your name"
                       />
                     </div>
@@ -76,7 +76,7 @@ export default function ContactPage() {
                         required
                         value={formData.email}
                         onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                        className="w-full h-12 px-4 rounded-xl border border-border bg-neutral/50 focus:border-[#2DBEFF] focus:ring-1 focus:ring-[#2DBEFF] outline-none transition-colors"
+                        className="w-full h-12 px-4 rounded-xl border border-border bg-neutral/50 focus:border-[#5bd37c] focus:ring-1 focus:ring-[#5bd37c] outline-none transition-colors"
                         placeholder="your@email.com"
                       />
                     </div>
@@ -87,7 +87,7 @@ export default function ContactPage() {
                       type="text"
                       value={formData.subject}
                       onChange={(e) => setFormData({ ...formData, subject: e.target.value })}
-                      className="w-full h-12 px-4 rounded-xl border border-border bg-neutral/50 focus:border-[#2DBEFF] focus:ring-1 focus:ring-[#2DBEFF] outline-none transition-colors"
+                      className="w-full h-12 px-4 rounded-xl border border-border bg-neutral/50 focus:border-[#5bd37c] focus:ring-1 focus:ring-[#5bd37c] outline-none transition-colors"
                       placeholder="How can we help?"
                     />
                   </div>
@@ -98,7 +98,7 @@ export default function ContactPage() {
                       value={formData.message}
                       onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                       rows={5}
-                      className="w-full px-4 py-3 rounded-xl border border-border bg-neutral/50 focus:border-[#2DBEFF] focus:ring-1 focus:ring-[#2DBEFF] outline-none transition-colors resize-none"
+                      className="w-full px-4 py-3 rounded-xl border border-border bg-neutral/50 focus:border-[#5bd37c] focus:ring-1 focus:ring-[#5bd37c] outline-none transition-colors resize-none"
                       placeholder="Tell us more..."
                     />
                   </div>
@@ -120,21 +120,21 @@ export default function ContactPage() {
                     <h3 className="font-heading font-bold text-xl mb-4">Contact Info</h3>
                     <div className="space-y-4">
                       <div className="flex items-start gap-3">
-                        <Mail size={18} className="text-[#2DBEFF] mt-0.5" />
+                        <Mail size={18} className="text-[#5bd37c] mt-0.5" />
                         <div>
                           <p className="font-medium text-sm">Email</p>
                           <p className="text-sm text-muted">hello@virtualgenesis.com</p>
                         </div>
                       </div>
                       <div className="flex items-start gap-3">
-                        <MapPin size={18} className="text-[#2DBEFF] mt-0.5" />
+                        <MapPin size={18} className="text-[#5bd37c] mt-0.5" />
                         <div>
                           <p className="font-medium text-sm">Location</p>
                           <p className="text-sm text-muted">Nashville, TN</p>
                         </div>
                       </div>
                       <div className="flex items-start gap-3">
-                        <MessageCircle size={18} className="text-[#2DBEFF] mt-0.5" />
+                        <MessageCircle size={18} className="text-[#5bd37c] mt-0.5" />
                         <div>
                           <p className="font-medium text-sm">Social</p>
                           <p className="text-sm text-muted">@virtualgenesis</p>
@@ -151,15 +151,15 @@ export default function ContactPage() {
                         <Link
                           key={item.q}
                           href={item.slug}
-                          className="block p-4 rounded-xl bg-neutral hover:bg-[#2DBEFF]/5 transition-colors group"
+                          className="block p-4 rounded-xl bg-neutral hover:bg-[#5bd37c]/5 transition-colors group"
                         >
-                          <p className="text-sm font-medium group-hover:text-[#2DBEFF] transition-colors">{item.q}</p>
+                          <p className="text-sm font-medium group-hover:text-[#5bd37c] transition-colors">{item.q}</p>
                         </Link>
                       ))}
                     </div>
                     <Link
                       href="/faq"
-                      className="inline-flex items-center gap-1 text-sm font-medium text-[#2DBEFF] mt-4 hover:underline"
+                      className="inline-flex items-center gap-1 text-sm font-medium text-[#5bd37c] mt-4 hover:underline"
                     >
                       View All FAQs <ArrowRight size={14} />
                     </Link>

@@ -41,13 +41,13 @@ export default function AboutPage() {
         <div className="relative z-10 max-w-7xl mx-auto px-6">
           <div className="max-w-3xl">
             <AnimatedSection>
-              <p className="text-sm font-semibold text-[#2DBEFF] uppercase tracking-widest mb-4">About Us</p>
+              <p className="text-sm font-semibold text-[#5bd37c] uppercase tracking-widest mb-4">About Us</p>
             </AnimatedSection>
             <h1 className="text-6xl md:text-8xl lg:text-9xl font-heading font-bold leading-none mb-8">
               <SplitText as="span" className="block">
                 OUR
               </SplitText>
-              <SplitText as="span" className="block text-[#2DBEFF]" delay={0.3}>
+              <SplitText as="span" className="block text-[#5bd37c]" delay={0.3}>
                 MISSION
               </SplitText>
             </h1>
@@ -75,7 +75,7 @@ export default function AboutPage() {
         <div className="absolute inset-0 bg-black/40" />
         <div className="relative z-10 h-full flex items-center justify-center text-center px-6">
           <AnimatedSection className="max-w-2xl">
-            <p className="text-sm font-semibold text-[#2DBEFF] uppercase tracking-widest mb-4">Our Story</p>
+            <p className="text-sm font-semibold text-[#5bd37c] uppercase tracking-widest mb-4">Our Story</p>
             <h2 className="text-4xl md:text-6xl font-heading font-bold text-white mb-6">
               Born from a conviction that faith deserves beauty.
             </h2>
@@ -90,7 +90,7 @@ export default function AboutPage() {
       <section className="py-32">
         <div className="max-w-7xl mx-auto px-6">
           <AnimatedSection className="text-center mb-16">
-            <p className="text-sm font-semibold text-[#2DBEFF] uppercase tracking-widest mb-2">Values</p>
+            <p className="text-sm font-semibold text-[#5bd37c] uppercase tracking-widest mb-2">Values</p>
             <h2 className="text-4xl md:text-5xl font-heading font-bold">What We Stand For</h2>
           </AnimatedSection>
 
@@ -98,7 +98,7 @@ export default function AboutPage() {
             {values.map((v, i) => (
               <AnimatedSection key={v.title} delay={i * 0.1}>
                 <div className="text-center group">
-                  <div className="w-16 h-16 rounded-2xl bg-[#2DBEFF]/10 flex items-center justify-center mx-auto mb-5 group-hover:bg-[#2DBEFF] group-hover:text-white transition-all duration-300">
+                  <div className="w-16 h-16 rounded-2xl bg-[#5bd37c]/10 flex items-center justify-center mx-auto mb-5 group-hover:bg-[#5bd37c] group-hover:text-white transition-all duration-300">
                     <v.icon size={28} />
                   </div>
                   <h3 className="text-xl font-heading font-bold mb-2">{v.title}</h3>
@@ -120,7 +120,7 @@ export default function AboutPage() {
               { number: '50+', label: 'Podcast Episodes' },
             ].map((stat, i) => (
               <AnimatedSection key={stat.label} delay={i * 0.1} className="text-center">
-                <div className="text-5xl md:text-6xl font-heading font-bold text-[#2DBEFF] mb-2">{stat.number}</div>
+                <div className="text-5xl md:text-6xl font-heading font-bold text-[#5bd37c] mb-2">{stat.number}</div>
                 <p className="text-muted">{stat.label}</p>
               </AnimatedSection>
             ))}
@@ -131,7 +131,7 @@ export default function AboutPage() {
       {/* CTA */}
       <section className="relative py-32 overflow-hidden">
         <div className="absolute inset-0 gradient-primary opacity-90" />
-        <div className="absolute inset-0 bg-gradient-to-br from-[#2DBEFF]/40 via-transparent to-[#FFD54A]/20" />
+        <div className="absolute inset-0 bg-gradient-to-br from-[#5bd37c]/40 via-transparent to-[#f8c602]/20" />
         <div className="relative z-10 max-w-2xl mx-auto px-6 text-center">
           <AnimatedSection>
             <h2 className="text-5xl md:text-7xl font-heading font-bold text-white mb-6">

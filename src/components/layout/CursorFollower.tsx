@@ -20,7 +20,7 @@ export function CursorFollower() {
   return (
     <div
       ref={cursorRef}
-      className="fixed w-8 h-8 rounded-full bg-[#2DBEFF]/20 border border-[#2DBEFF]/30 pointer-events-none z-[9999] mix-blend-difference hidden lg:block"
+      className="fixed w-8 h-8 rounded-full bg-[#5bd37c]/20 border border-[#5bd37c]/30 pointer-events-none z-[9999] mix-blend-difference hidden lg:block"
       style={{ transform: 'translate(-50%, -50%)' }}
     />
   )

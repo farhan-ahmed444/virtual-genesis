@@ -36,10 +36,10 @@ function FAQItem({ question, answer, index }: { question: string; answer: string
           onClick={toggle}
           className="w-full flex items-center justify-between py-6 text-left group"
         >
-          <span className="font-medium text-base pr-4 group-hover:text-[#2DBEFF] transition-colors">
+          <span className="font-medium text-base pr-4 group-hover:text-[#5bd37c] transition-colors">
             {question}
           </span>
-          <span className="flex-shrink-0 w-8 h-8 rounded-full bg-neutral flex items-center justify-center group-hover:bg-[#2DBEFF] group-hover:text-white transition-all">
+          <span className="flex-shrink-0 w-8 h-8 rounded-full bg-neutral flex items-center justify-center group-hover:bg-[#5bd37c] group-hover:text-white transition-all">
             {open ? <Minus size={14} /> : <Plus size={14} />}
           </span>
         </button>
@@ -72,13 +72,13 @@ export default function FAQPage() {
         <div className="relative z-10 max-w-7xl mx-auto px-6 w-full">
           <div className="max-w-3xl">
             <AnimatedSection>
-              <p className="text-sm font-semibold text-[#2DBEFF] uppercase tracking-widest mb-4">FAQ</p>
+              <p className="text-sm font-semibold text-[#5bd37c] uppercase tracking-widest mb-4">FAQ</p>
             </AnimatedSection>
             <h1 className="text-6xl md:text-8xl font-heading font-bold leading-none mb-8">
               <SplitText as="span" className="block">
                 QUESTIONS?
               </SplitText>
-              <SplitText as="span" className="block text-[#2DBEFF]" delay={0.3}>
+              <SplitText as="span" className="block text-[#5bd37c]" delay={0.3}>
                 ANSWERS.
               </SplitText>
             </h1>
@@ -93,7 +93,7 @@ export default function FAQPage() {
                 value={search}
                 onChange={(e) => setSearch(e.target.value)}
                 placeholder="Search FAQs..."
-                className="w-full h-12 pl-12 pr-4 rounded-full border border-border bg-white focus:border-[#2DBEFF] focus:ring-1 focus:ring-[#2DBEFF] outline-none transition-colors"
+                className="w-full h-12 pl-12 pr-4 rounded-full border border-border bg-white focus:border-[#5bd37c] focus:ring-1 focus:ring-[#5bd37c] outline-none transition-colors"
               />
             </div>
           </AnimatedSection>

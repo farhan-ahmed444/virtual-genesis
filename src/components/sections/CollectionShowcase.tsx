@@ -9,7 +9,7 @@ export function CollectionShowcase() {
     <section className="py-24 md:py-32 bg-neutral">
       <div className="max-w-7xl mx-auto px-6">
         <AnimatedSection className="mb-12">
-          <p className="text-sm font-semibold text-[#2DBEFF] uppercase tracking-widest mb-2">Collections</p>
+          <p className="text-sm font-semibold text-[#5bd37c] uppercase tracking-widest mb-2">Collections</p>
           <h2 className="text-4xl md:text-5xl font-heading font-bold">Explore</h2>
         </AnimatedSection>
 
@@ -25,7 +25,7 @@ export function CollectionShowcase() {
                   style={{ backgroundImage: `url(${collection.image})` }}
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent transition-opacity duration-500" />
-                <div className="absolute inset-0 bg-[#2DBEFF]/0 group-hover:bg-[#2DBEFF]/20 transition-all duration-500" />
+                <div className="absolute inset-0 bg-[#5bd37c]/0 group-hover:bg-[#5bd37c]/20 transition-all duration-500" />
 
                 <div className="absolute bottom-0 left-0 right-0 p-6 md:p-8">
                   <h3 className="text-2xl md:text-3xl font-heading font-bold text-white mb-2 group-hover:translate-x-2 transition-transform duration-300">
@@ -34,7 +34,7 @@ export function CollectionShowcase() {
                   <p className="text-sm text-white/70 mb-3 max-w-[200px]">
                     {collection.description}
                   </p>
-                  <span className="inline-flex items-center gap-2 text-sm font-medium text-white group-hover:text-[#2DBEFF] transition-colors">
+                  <span className="inline-flex items-center gap-2 text-sm font-medium text-white group-hover:text-[#5bd37c] transition-colors">
                     Explore <ArrowRight size={14} className="group-hover:translate-x-1 transition-transform" />
                   </span>
                 </div>

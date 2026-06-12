@@ -13,13 +13,13 @@ export default function ArtworkPage() {
         <div className="absolute inset-0 gradient-mesh" />
         <div className="relative z-10 max-w-7xl mx-auto px-6 w-full">
           <AnimatedSection>
-            <p className="text-sm font-semibold text-[#2DBEFF] uppercase tracking-widest mb-2">Artwork</p>
+            <p className="text-sm font-semibold text-[#5bd37c] uppercase tracking-widest mb-2">Artwork</p>
           </AnimatedSection>
           <h1 className="text-6xl md:text-8xl font-heading font-bold leading-none mb-6">
             <SplitText as="span" className="block">
               SACRED
             </SplitText>
-            <SplitText as="span" className="block text-[#2DBEFF]" delay={0.3}>
+            <SplitText as="span" className="block text-[#5bd37c]" delay={0.3}>
               ART
             </SplitText>
           </h1>

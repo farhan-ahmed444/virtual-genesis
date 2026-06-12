@@ -60,8 +60,8 @@ export function HeroSection() {
     >
       {/* Animated light rays */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        <div className="absolute -top-1/2 -left-1/2 w-full h-full bg-gradient-to-br from-[#2DBEFF]/10 via-transparent to-transparent rotate-12 animate-float" />
-        <div className="absolute -bottom-1/2 -right-1/2 w-full h-full bg-gradient-to-tl from-[#EAF8FF]/30 via-transparent to-transparent -rotate-6 animate-float" style={{ animationDelay: '2s' }} />
+        <div className="absolute -top-1/2 -left-1/2 w-full h-full bg-gradient-to-br from-[#5bd37c]/10 via-transparent to-transparent rotate-12 animate-float" />
+        <div className="absolute -bottom-1/2 -right-1/2 w-full h-full bg-gradient-to-tl from-[#0fa8ed]/30 via-transparent to-transparent -rotate-6 animate-float" style={{ animationDelay: '2s' }} />
       </div>
 
       {/* Particles */}
@@ -69,7 +69,7 @@ export function HeroSection() {
         {[...Array(20)].map((_, i) => (
           <span
             key={i}
-            className="absolute w-1 h-1 bg-[#2DBEFF]/20 rounded-full animate-float"
+            className="absolute w-1 h-1 bg-[#5bd37c]/20 rounded-full animate-float"
             style={{
               left: `${Math.random() * 100}%`,
               top: `${Math.random() * 100}%`,
@@ -83,7 +83,7 @@ export function HeroSection() {
       {/* Cursor glow */}
       <div
         ref={glowRef}
-        className="absolute w-[500px] h-[500px] rounded-full bg-[#2DBEFF]/5 blur-3xl pointer-events-none -translate-x-1/2 -translate-y-1/2"
+        className="absolute w-[500px] h-[500px] rounded-full bg-[#5bd37c]/5 blur-3xl pointer-events-none -translate-x-1/2 -translate-y-1/2"
         style={{ left: `${normalizedX * 50 + 50}%`, top: `${normalizedY * 50 + 50}%` }}
       />
 
@@ -91,7 +91,7 @@ export function HeroSection() {
         <div className="grid lg:grid-cols-2 gap-16 items-center min-h-[70vh]">
           {/* Left Content */}
           <div className="pt-24 lg:pt-0">
-            <div className="hero-subtitle flex items-center gap-2 text-sm font-medium text-[#2DBEFF] mb-6">
+            <div className="hero-subtitle flex items-center gap-2 text-sm font-medium text-[#5bd37c] mb-6">
               <Sparkles size={16} />
               <span>Faith-Inspired Lifestyle</span>
             </div>
@@ -102,7 +102,7 @@ export function HeroSection() {
                   WHERE
                 </SplitText>
               </div>
-              <div className="text-[clamp(4rem,8vw,8rem)] text-[#2DBEFF] ml-[0.5em]">
+              <div className="text-[clamp(4rem,8vw,8rem)] text-[#5bd37c] ml-[0.5em]">
                 <SplitText as="span" className="block" stagger={0.03} delay={0.5}>
                   NEW
                 </SplitText>
@@ -135,16 +135,16 @@ export function HeroSection() {
 
           {/* Right: Floating Cards */}
           <div ref={cardsRef} className="relative hidden lg:block h-[70vh]">
-            <div className="floating-card absolute top-[5%] right-[10%] w-64 h-80 rounded-2xl overflow-hidden shadow-2xl shadow-[#2DBEFF]/10 rotate-6">
+            <div className="floating-card absolute top-[5%] right-[10%] w-64 h-80 rounded-2xl overflow-hidden shadow-2xl shadow-[#5bd37c]/10 rotate-6">
               <div className="w-full h-full bg-cover bg-center" style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600)' }} />
             </div>
-            <div className="floating-card absolute top-[20%] right-[35%] w-56 h-72 rounded-2xl overflow-hidden shadow-2xl shadow-[#2DBEFF]/10 -rotate-3">
+            <div className="floating-card absolute top-[20%] right-[35%] w-56 h-72 rounded-2xl overflow-hidden shadow-2xl shadow-[#5bd37c]/10 -rotate-3">
               <div className="w-full h-full bg-cover bg-center" style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=600)' }} />
             </div>
-            <div className="floating-card absolute bottom-[10%] right-[5%] w-52 h-64 rounded-2xl overflow-hidden shadow-2xl shadow-[#FFD54A]/10 rotate-12">
+            <div className="floating-card absolute bottom-[10%] right-[5%] w-52 h-64 rounded-2xl overflow-hidden shadow-2xl shadow-[#f8c602]/10 rotate-12">
               <div className="w-full h-full bg-cover bg-center" style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1515405295579-ba7b454bb62b?w=600)' }} />
             </div>
-            <div className="floating-card absolute bottom-[15%] right-[40%] w-48 h-60 rounded-2xl overflow-hidden shadow-2xl shadow-[#2DBEFF]/10 -rotate-8">
+            <div className="floating-card absolute bottom-[15%] right-[40%] w-48 h-60 rounded-2xl overflow-hidden shadow-2xl shadow-[#5bd37c]/10 -rotate-8">
               <div className="w-full h-full bg-cover bg-center" style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1588850561407-ed78c282e89b?w=600)' }} />
             </div>
 

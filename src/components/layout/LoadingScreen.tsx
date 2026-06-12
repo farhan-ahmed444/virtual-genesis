@@ -37,7 +37,7 @@ export function LoadingScreen() {
         ref={textRef}
         className="text-4xl md:text-6xl font-heading font-bold text-white tracking-tight"
       >
-        VIRTUAL<span className="text-[#2DBEFF]">.</span>GENESIS
+        VIRTUAL<span className="text-[#5bd37c]">.</span>GENESIS
       </h1>
     </div>
   )

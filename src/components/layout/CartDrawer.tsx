@@ -49,7 +49,7 @@ export function CartDrawer() {
             <span className="font-semibold text-lg">Cart</span>
             <span className="text-sm text-muted">({items.length})</span>
           </div>
-          <button onClick={closeCart} className="p-2 hover:text-[#2DBEFF] transition-colors">
+          <button onClick={closeCart} className="p-2 hover:text-[#5bd37c] transition-colors">
             <X size={20} />
           </button>
         </div>
@@ -76,14 +76,14 @@ export function CartDrawer() {
                   <div className="flex items-center gap-2 mt-2">
                     <button
                       onClick={() => updateQuantity(item.productId, item.quantity - 1)}
-                      className="w-7 h-7 rounded-full border border-border flex items-center justify-center hover:bg-[#2DBEFF] hover:text-white hover:border-[#2DBEFF] transition-colors"
+                      className="w-7 h-7 rounded-full border border-border flex items-center justify-center hover:bg-[#5bd37c] hover:text-white hover:border-[#5bd37c] transition-colors"
                     >
                       <Minus size={12} />
                     </button>
                     <span className="text-sm font-medium w-6 text-center">{item.quantity}</span>
                     <button
                       onClick={() => updateQuantity(item.productId, item.quantity + 1)}
-                      className="w-7 h-7 rounded-full border border-border flex items-center justify-center hover:bg-[#2DBEFF] hover:text-white hover:border-[#2DBEFF] transition-colors"
+                      className="w-7 h-7 rounded-full border border-border flex items-center justify-center hover:bg-[#5bd37c] hover:text-white hover:border-[#5bd37c] transition-colors"
                     >
                       <Plus size={12} />
                     </button>

@@ -19,7 +19,7 @@ export default function ProductPage({ params }: { params: Promise<{ slug: string
       <section className="min-h-screen flex items-center justify-center pt-24">
         <div className="text-center">
           <h1 className="text-4xl font-heading font-bold mb-4">Product Not Found</h1>
-          <Link href="/shop" className="text-[#2DBEFF] hover:underline">Back to Shop</Link>
+          <Link href="/shop" className="text-[#5bd37c] hover:underline">Back to Shop</Link>
         </div>
       </section>
     )
@@ -40,10 +40,10 @@ export default function ProductPage({ params }: { params: Promise<{ slug: string
             </AnimatedSection>
             <AnimatedSection delay={0.2}>
               <div className="sticky top-28">
-                {product.isNew && <span className="text-xs font-semibold text-[#2DBEFF] uppercase tracking-widest">New Arrival</span>}
+                {product.isNew && <span className="text-xs font-semibold text-[#5bd37c] uppercase tracking-widest">New Arrival</span>}
                 <h1 className="text-4xl md:text-5xl font-heading font-bold mt-2 mb-4">{product.name}</h1>
                 <div className="flex items-center gap-2 mb-4">
-                  <Star size={16} className="fill-[#FFD54A] text-[#FFD54A]" />
+                  <Star size={16} className="fill-[#f8c602] text-[#f8c602]" />
                   <span className="text-sm font-medium">{product.rating}</span>
                   <span className="text-sm text-muted">({product.reviewCount} reviews)</span>
                 </div>
@@ -60,7 +60,7 @@ export default function ProductPage({ params }: { params: Promise<{ slug: string
                     <h3 className="text-sm font-semibold mb-3">Color</h3>
                     <div className="flex gap-3">
                       {product.colors.map((c) => (
-                        <span key={c.hex} className="w-10 h-10 rounded-full border-2 border-border hover:border-[#2DBEFF] cursor-pointer transition-all" style={{ backgroundColor: c.hex }} />
+                        <span key={c.hex} className="w-10 h-10 rounded-full border-2 border-border hover:border-[#5bd37c] cursor-pointer transition-all" style={{ backgroundColor: c.hex }} />
                       ))}
                     </div>
                   </div>

@@ -29,30 +29,30 @@ export default function CheckoutPage() {
                 <div className="space-y-4">
                   <div>
                     <label className="block text-sm font-medium mb-2">Email</label>
-                    <input type="email" className="w-full h-12 px-4 rounded-xl border border-border bg-neutral/50 focus:border-[#2DBEFF] outline-none transition-colors" placeholder="your@email.com" />
+                    <input type="email" className="w-full h-12 px-4 rounded-xl border border-border bg-neutral/50 focus:border-[#5bd37c] outline-none transition-colors" placeholder="your@email.com" />
                   </div>
                   <div className="grid grid-cols-2 gap-4">
                     <div>
                       <label className="block text-sm font-medium mb-2">First Name</label>
-                      <input type="text" className="w-full h-12 px-4 rounded-xl border border-border bg-neutral/50 focus:border-[#2DBEFF] outline-none transition-colors" />
+                      <input type="text" className="w-full h-12 px-4 rounded-xl border border-border bg-neutral/50 focus:border-[#5bd37c] outline-none transition-colors" />
                     </div>
                     <div>
                       <label className="block text-sm font-medium mb-2">Last Name</label>
-                      <input type="text" className="w-full h-12 px-4 rounded-xl border border-border bg-neutral/50 focus:border-[#2DBEFF] outline-none transition-colors" />
+                      <input type="text" className="w-full h-12 px-4 rounded-xl border border-border bg-neutral/50 focus:border-[#5bd37c] outline-none transition-colors" />
                     </div>
                   </div>
                   <div>
                     <label className="block text-sm font-medium mb-2">Address</label>
-                    <input type="text" className="w-full h-12 px-4 rounded-xl border border-border bg-neutral/50 focus:border-[#2DBEFF] outline-none transition-colors" />
+                    <input type="text" className="w-full h-12 px-4 rounded-xl border border-border bg-neutral/50 focus:border-[#5bd37c] outline-none transition-colors" />
                   </div>
                   <div className="grid grid-cols-2 gap-4">
                     <div>
                       <label className="block text-sm font-medium mb-2">City</label>
-                      <input type="text" className="w-full h-12 px-4 rounded-xl border border-border bg-neutral/50 focus:border-[#2DBEFF] outline-none transition-colors" />
+                      <input type="text" className="w-full h-12 px-4 rounded-xl border border-border bg-neutral/50 focus:border-[#5bd37c] outline-none transition-colors" />
                     </div>
                     <div>
                       <label className="block text-sm font-medium mb-2">ZIP Code</label>
-                      <input type="text" className="w-full h-12 px-4 rounded-xl border border-border bg-neutral/50 focus:border-[#2DBEFF] outline-none transition-colors" />
+                      <input type="text" className="w-full h-12 px-4 rounded-xl border border-border bg-neutral/50 focus:border-[#5bd37c] outline-none transition-colors" />
                     </div>
                   </div>
                 </div>

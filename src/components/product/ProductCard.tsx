@@ -107,14 +107,14 @@ export function ProductCard({ product, index = 0 }: ProductCardProps) {
         <div className="absolute right-3 top-3 flex flex-col gap-2 opacity-0 group-hover:opacity-100 translate-x-4 group-hover:translate-x-0 transition-all duration-300">
           <button
             onClick={(e) => { e.preventDefault(); toggleItem(product.id) }}
-            className="w-10 h-10 rounded-full bg-white shadow-lg flex items-center justify-center hover:bg-[#2DBEFF] hover:text-white transition-all"
+            className="w-10 h-10 rounded-full bg-white shadow-lg flex items-center justify-center hover:bg-[#5bd37c] hover:text-white transition-all"
             aria-label="Toggle wishlist"
           >
             <Heart size={16} className={wishlisted ? 'fill-red-500 text-red-500' : ''} />
           </button>
           <button
             onClick={(e) => { e.preventDefault(); openQuickView(product.id) }}
-            className="w-10 h-10 rounded-full bg-white shadow-lg flex items-center justify-center hover:bg-[#2DBEFF] hover:text-white transition-all"
+            className="w-10 h-10 rounded-full bg-white shadow-lg flex items-center justify-center hover:bg-[#5bd37c] hover:text-white transition-all"
             aria-label="Quick view"
           >
             <Eye size={16} />
@@ -125,7 +125,7 @@ export function ProductCard({ product, index = 0 }: ProductCardProps) {
       {/* Info */}
       <div className="mt-4 px-1">
         <Link href={`/shop/${product.slug}`}>
-          <h3 className="font-medium text-sm hover:text-[#2DBEFF] transition-colors truncate">
+          <h3 className="font-medium text-sm hover:text-[#5bd37c] transition-colors truncate">
             {product.name}
           </h3>
         </Link>
@@ -136,7 +136,7 @@ export function ProductCard({ product, index = 0 }: ProductCardProps) {
           )}
         </p>
         <div className="flex items-center gap-1 mt-1">
-          <Star size={12} className="fill-[#FFD54A] text-[#FFD54A]" />
+          <Star size={12} className="fill-[#f8c602] text-[#f8c602]" />
           <span className="text-xs text-muted">{product.rating} ({product.reviewCount})</span>
         </div>
 
@@ -164,7 +164,7 @@ export function ProductCard({ product, index = 0 }: ProductCardProps) {
               image: product.images[0],
             })
           }
-          className="mt-3 w-full h-10 rounded-full bg-foreground text-white text-sm font-medium hover:bg-[#2DBEFF] transition-all duration-300 flex items-center justify-center gap-2 opacity-0 group-hover:opacity-100 translate-y-2 group-hover:translate-y-0"
+          className="mt-3 w-full h-10 rounded-full bg-foreground text-white text-sm font-medium hover:bg-[#5bd37c] transition-all duration-300 flex items-center justify-center gap-2 opacity-0 group-hover:opacity-100 translate-y-2 group-hover:translate-y-0"
         >
           <ShoppingBag size={14} />
           Add to Cart
