@@ -136,19 +136,18 @@ export function HeroSection() {
           {/* Right: Floating Cards */}
           <div ref={cardsRef} className="relative hidden lg:block h-[70vh]">
             <div className="floating-card absolute top-[5%] right-[10%] w-64 h-80 rounded-2xl overflow-hidden shadow-2xl shadow-[#5bd37c]/10 rotate-6">
-              <div className="w-full h-full bg-cover bg-center" style={{ backgroundImage: 'url(https://res.cloudinary.com/dx9qt4qrg/image/upload/q_auto/f_auto/v1781227159/Outlook-cc45ffu1_epjybh.webp
-?w=600)' }} />
+              <div className="w-full h-full bg-cover bg-center" style={{ backgroundImage: 'url(https://res.cloudinary.com/dx9qt4qrg/image/upload/f_auto,q_auto/Outlook-bum35e3b_vox2hr?w=600)' }} />
             </div>
             <div className="floating-card absolute top-[20%] right-[35%] w-56 h-72 rounded-2xl overflow-hidden shadow-2xl shadow-[#5bd37c]/10 -rotate-3">
-              <div className="w-full h-full bg-cover bg-center" style={{ backgroundImage: 'url(https://res.cloudinary.com/dx9qt4qrg/image/upload/f_auto,q_auto/Outlook-bum35e3b_vox2hr
-?w=600)' }} />
+              <div className="w-full h-full bg-cover bg-center" style={{ backgroundImage: 'url(https://res.cloudinary.com/dx9qt4qrg/image/upload/q_auto/f_auto/v1781227159/Outlook-cc45ffu1_epjybh.webp?w=600)' }} />
             </div>
             <div className="floating-card absolute bottom-[10%] right-[5%] w-52 h-64 rounded-2xl overflow-hidden shadow-2xl shadow-[#f8c602]/10 rotate-12">
-              <div className="w-full h-full bg-cover bg-center" style={{ backgroundImage: 'url(https://res.cloudinary.com/dx9qt4qrg/image/upload/q_auto/f_auto/v1781227225/image1-1024x723_e6zh60.webp
-?w=600)' }} />
+              <div className="w-full h-full bg-cover bg-center" style={{ backgroundImage: 'url(https://res.cloudinary.com/dx9qt4qrg/image/upload/f_auto,q_auto/Outlook-bum35e3b_vox2hr?w=600)' }} />
             </div>
-               
- 
+            <div className="floating-card absolute bottom-[15%] right-[40%] w-48 h-60 rounded-2xl overflow-hidden shadow-2xl shadow-[#5bd37c]/10 -rotate-8">
+              <div className="w-full h-full bg-cover bg-center" style={{ backgroundImage: 'url(https://res.cloudinary.com/dx9qt4qrg/image/upload/q_auto/f_auto/v1781227225/image1-1024x723_e6zh60.webp)' }} />
+            </div>
+
             {/* Glass badge */}
             <div className="floating-card absolute top-[45%] -right-[5%] glass rounded-xl px-4 py-3 shadow-xl">
               <p className="text-sm font-semibold">New Collection</p>
