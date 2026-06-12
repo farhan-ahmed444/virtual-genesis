@@ -6,6 +6,7 @@ import { PodcastSection } from '@/components/sections/PodcastSection'
 import { ProgramsSection } from '@/components/sections/ProgramsSection'
 import { Testimonials } from '@/components/sections/Testimonials'
 import { NewsletterSection } from '@/components/sections/NewsletterSection'
+import { StoryFormSection } from '@/components/sections/StoryFormSection'
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <PodcastSection />
       <ProgramsSection />
       <Testimonials />
+      <StoryFormSection />
       <NewsletterSection />
     </>
   )
