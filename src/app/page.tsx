@@ -1,5 +1,6 @@
 import { HeroSection } from '@/components/sections/HeroSection'
 import { FeaturedProducts } from '@/components/sections/FeaturedProducts'
+import { JewelryBanner } from '@/components/sections/JewelryBanner'
 import { CollectionShowcase } from '@/components/sections/CollectionShowcase'
 import { BrandStory } from '@/components/sections/BrandStory'
 import { PodcastSection } from '@/components/sections/PodcastSection'
@@ -13,6 +14,7 @@ export default function Home() {
     <>
       <HeroSection />
       <FeaturedProducts />
+      <JewelryBanner />
       <CollectionShowcase />
       <BrandStory />
       <PodcastSection />

@@ -164,6 +164,65 @@ export const products: Product[] = [
     isFeatured: true,
     createdAt: '2025-12-15',
   },
+  {
+    id: '9',
+    name: 'Faith in Motion Bar Necklace',
+    slug: 'faith-in-motion-bar-necklace',
+    price: 58,
+    description: 'Minimalist bar necklace with a subtle faith-inspired design. Crafted from premium stainless steel with a polished finish.',
+    category: 'accessories',
+    images: [
+      'https://bravo.yourwebsitedemos.com/web/Virtual-Genesis-v3/wp-content/uploads/2026/05/Outlook-bum35e3b.png',
+    ],
+    colors: [
+      { name: 'Silver', hex: '#C0C0C0' },
+      { name: 'Gold', hex: '#D4AF37' },
+    ],
+    rating: 4.9,
+    reviewCount: 37,
+    isNew: true,
+    isFeatured: true,
+    createdAt: '2026-01-15',
+  },
+  {
+    id: '10',
+    name: 'Faith in Motion Corded Bracelet',
+    slug: 'faith-in-motion-corded-bracelet',
+    price: 42,
+    description: 'Handcrafted corded bracelet with faith-inspired charm. Adjustable fit with durable braided cord and premium metal accents.',
+    category: 'accessories',
+    images: [
+      'https://bravo.yourwebsitedemos.com/web/Virtual-Genesis-v3/wp-content/uploads/2026/05/Outlook-cc45ffu1.png',
+    ],
+    colors: [
+      { name: 'Black', hex: '#000000' },
+      { name: 'Brown', hex: '#8B4513' },
+    ],
+    rating: 4.7,
+    reviewCount: 28,
+    isNew: true,
+    isFeatured: true,
+    createdAt: '2026-01-15',
+  },
+  {
+    id: '11',
+    name: 'Mustard Seed Mountain Necklace',
+    slug: 'mustard-seed-mountain-necklace',
+    price: 64,
+    description: 'Inspired by the mountain-moving power of mustard seed faith. Sterling silver pendant with textured mountain detail on a fine chain.',
+    category: 'accessories',
+    images: [
+      'https://bravo.yourwebsitedemos.com/web/Virtual-Genesis-v3/wp-content/uploads/2026/05/image1-1024x723.jpeg',
+    ],
+    colors: [
+      { name: 'Silver', hex: '#C0C0C0' },
+    ],
+    rating: 4.8,
+    reviewCount: 42,
+    isNew: true,
+    isFeatured: true,
+    createdAt: '2026-01-10',
+  },
 ]
 
 export const collections: Collection[] = [
